@@ -38,9 +38,9 @@ public class Main {
         System.out.println("Operation Task");
         calculate(3,5,Operation.PLUS);
 
-
-
-
+        System.out.println("How to retrieve the constant value?");
+        System.out.println(Currency.NICKLE.getValue());
+        System.out.println(Currency.QUARTER.ordinal()); // 3 , it shows the index number of constants
 
 
     }
