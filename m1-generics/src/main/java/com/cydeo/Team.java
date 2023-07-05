@@ -19,7 +19,7 @@ public class Team<T extends Player> {  //Any class you can pass to Team. Should 
 
     public boolean addPlayer(T player){
         if(members.contains(player)){
-            System.out.println(((Player)player).getName() + " is already on the team");
+            System.out.println((player).getName() + " is already on the team");
             return false;
         }else{
             members.add(player);
