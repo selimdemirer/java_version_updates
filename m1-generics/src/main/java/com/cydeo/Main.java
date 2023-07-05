@@ -12,17 +12,17 @@ public class Main {
         items.add(2);
         items.add(3);
         items.add(4);
-//        items.add("Apple");
+//      items.add("Apple");
 
         printDoubled(items);
 
-        System.out.println("***********************");
+        System.out.println("-------------------------------------");
 
-        FootballPlayer joe = new FootballPlayer("joe");
+        FootballPlayer joe = new FootballPlayer("joe"); //joe registered himself as a football player
         BaseballPlayer pat = new BaseballPlayer("Pat");
         SoccerPlayer beckham = new SoccerPlayer("Beckham");
 
-        Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team accepting any object
+        Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team accepting any object if we don't put generics
 
 //        liverpool.addPlayer(joe);
 //        liverpool.addPlayer(pat);
