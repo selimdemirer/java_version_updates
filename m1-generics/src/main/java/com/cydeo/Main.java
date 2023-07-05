@@ -23,6 +23,9 @@ public class Main {
         SoccerPlayer beckham = new SoccerPlayer("Beckham");
 
         Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team accepting any object if we don't put generics
+//        Team<String> brokenTeam = new Team<String>("what kind of team is this?");
+//        Team<Integer> t2 = new Team("Very weird");
+
 
 //        liverpool.addPlayer(joe);
 //        liverpool.addPlayer(pat);
