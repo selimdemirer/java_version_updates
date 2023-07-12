@@ -3,6 +3,8 @@ package com.cydeo;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class Main {
 
@@ -14,6 +16,19 @@ public class Main {
         //Ascending
         Collections.sort(list);
         System.out.println(list);
+
+        //Descending
+        Collections.sort(list,new MyComparator()); // We did a behavior parameterization with sort method
+        System.out.println(list);
+
+        System.out.println("==============or================");
+
+        Collections.sort(list,(((o1, o2) -> (o1>o2) ? -1 : (o1<o2) ? 1 :0)));
+
+        //Lambda
+        Consumer<List<Integer>> reverse = l -> Collections.reverse(l);  ;
+
+
 
     }
 }
