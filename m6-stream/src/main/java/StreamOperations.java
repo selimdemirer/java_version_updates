@@ -26,7 +26,17 @@ public class StreamOperations {
                 .limit(3)
                 .forEach(System.out::println);
 
+        System.out.println("Skip");
+        list.stream()
+                .filter(i->i%2==0)
+                .skip(1)
+                .forEach(System.out::println);
 
+        System.out.println("Map");
+        list.stream()
+                .map(n -> n*3 )
+                .filter(i->i%2==0)
+                .forEach(System.out::println);
 
 
 
