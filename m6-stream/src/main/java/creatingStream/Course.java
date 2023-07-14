@@ -1,3 +1,5 @@
+package creatingStream;
+
 public class Course {
 
     private String courseName;
