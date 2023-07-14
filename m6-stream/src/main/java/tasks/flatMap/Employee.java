@@ -1,4 +1,4 @@
-package tasks.employee;
+package tasks.flatMap;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
