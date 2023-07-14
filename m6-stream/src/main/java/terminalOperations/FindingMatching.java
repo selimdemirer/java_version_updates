@@ -36,7 +36,6 @@ public class FindingMatching {
 
 
 
-
         //PARALLEL STREAMS ()
         System.out.println(IntStream.range(0,100).parallel().findAny());
         System.out.println(IntStream.range(0,100).parallel().findFirst());
@@ -55,9 +54,6 @@ public class FindingMatching {
 
 
 
-
-
-
         System.out.println("Min");
         Optional<Dish> dMin = DishData.getAll().stream().min(Comparator.comparing(Dish::getCalories));
         System.out.println(dMin.get());
@@ -65,9 +61,6 @@ public class FindingMatching {
         System.out.println("Max");
         Optional<Dish> dMax = DishData.getAll().stream().max(Comparator.comparing(Dish::getCalories));
         System.out.println(dMax.get());
-
-
-
 
 
 
