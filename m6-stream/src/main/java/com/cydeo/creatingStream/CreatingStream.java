@@ -1,4 +1,4 @@
-package creatingStream;
+package com.cydeo.creatingStream;
 
 import java.util.Arrays;
 import java.util.List;

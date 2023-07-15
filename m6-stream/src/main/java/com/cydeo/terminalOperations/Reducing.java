@@ -1,7 +1,7 @@
-package terminalOperations;
+package com.cydeo.terminalOperations;
 
-import tasks.dish.Dish;
-import tasks.dish.DishData;
+import com.cydeo.tasks.dish.Dish;
+import com.cydeo.tasks.dish.DishData;
 
 import java.util.Arrays;
 import java.util.List;
@@ -28,6 +28,16 @@ public class Reducing {
                // .reduce(Integer::max)
                 .get();
         System.out.println(calTotal);
+
+        System.out.println("Count");
+        long dishCount = DishData.getAll().stream().count();
+        System.out.println(dishCount);
+
+
+
+
+
+
 
     }
 }

@@ -1,7 +1,7 @@
-package terminalOperations;
+package com.cydeo.terminalOperations;
 
-import tasks.dish.Dish;
-import tasks.dish.DishData;
+import com.cydeo.tasks.dish.Dish;
+import com.cydeo.tasks.dish.DishData;
 
 import java.util.Arrays;
 import java.util.Comparator;

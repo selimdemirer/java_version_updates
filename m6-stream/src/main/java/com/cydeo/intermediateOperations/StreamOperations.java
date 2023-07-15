@@ -1,4 +1,4 @@
-package intermediateOperations;
+package com.cydeo.intermediateOperations;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package creatingStream;
+package com.cydeo.creatingStream;
 
 public class Course {
 

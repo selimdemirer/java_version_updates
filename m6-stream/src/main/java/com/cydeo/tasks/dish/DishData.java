@@ -1,4 +1,4 @@
-package tasks.dish;
+package com.cydeo.tasks.dish;
 
 import java.util.Arrays;
 import java.util.List;

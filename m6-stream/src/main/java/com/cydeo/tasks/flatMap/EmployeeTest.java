@@ -1,4 +1,4 @@
-package tasks.flatMap;
+package com.cydeo.tasks.flatMap;
 
 import java.util.List;
 
