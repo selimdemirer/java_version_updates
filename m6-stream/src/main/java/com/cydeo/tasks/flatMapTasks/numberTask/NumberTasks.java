@@ -1,4 +1,4 @@
-package com.cydeo.tasks.numberTask;
+package com.cydeo.tasks.flatMapTasks.numberTask;
 
 import java.util.Arrays;
 import java.util.List;

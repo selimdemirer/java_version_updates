@@ -1,11 +1,10 @@
 package com.cydeo.terminalOperations;
 
-import com.cydeo.tasks.dish.Dish;
-import com.cydeo.tasks.dish.DishData;
-import com.cydeo.tasks.dish.Type;
+import com.cydeo.tasks.dishTasks.Dish;
+import com.cydeo.tasks.dishTasks.DishData;
+import com.cydeo.tasks.dishTasks.Type;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class CollectorsDemo {

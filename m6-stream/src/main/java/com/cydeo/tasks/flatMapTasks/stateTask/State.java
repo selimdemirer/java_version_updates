@@ -1,4 +1,4 @@
-package com.cydeo.tasks.stateTask;
+package com.cydeo.tasks.flatMapTasks.stateTask;
 
 import java.util.ArrayList;
 import java.util.List;

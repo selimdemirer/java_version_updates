@@ -1,4 +1,4 @@
-package com.cydeo.tasks.dish;
+package com.cydeo.tasks.dishTasks;
 
 import java.util.stream.Stream;
 
