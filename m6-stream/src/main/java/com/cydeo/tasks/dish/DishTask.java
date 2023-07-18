@@ -46,6 +46,20 @@ public class DishTask {
 
         Stream<Dish> dishStream = DishData.getAll().stream(); //Creating stream
 
+        System.out.println("How would you count the number of dishes in a stream using the map and reduce methods?");
+
+        DishData.getAll().stream()
+                .map(dish -> 1)
+                .reduce(Integer::sum).get();
+
+
+
+
+
+
+
+
+
 
     }
 }
