@@ -1,5 +1,7 @@
-package com.cydeo.java12;
+package com.cydeo.java12.employeeTask;
 
+
+import com.cydeo.java12.employeeTask.Employee;
 
 import java.util.Arrays;
 import java.util.Comparator;

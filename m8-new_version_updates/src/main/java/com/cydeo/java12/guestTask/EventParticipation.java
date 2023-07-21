@@ -1,4 +1,4 @@
-package com.cydeo.java12;
+package com.cydeo.java12.guestTask;
 
 import java.util.List;
 
